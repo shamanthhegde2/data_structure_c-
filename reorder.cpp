@@ -31,7 +31,7 @@ ListNode *reverse(ListNode *head)
         if(head==NULL || head->next==NULL)
             return;
         ListNode *fast{head};
-        ListNode *slow{head};
+        ListNode *slow{head}; 
         ListNode *prev;
         while(fast!=NULL && fast->next!=NULL)
         {
