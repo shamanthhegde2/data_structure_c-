@@ -13,6 +13,6 @@ struct node *reverse (struct node *head, int k)
         p=c;
         c=n;
     }
-    head->next=reverse(n,k);
+    head->next=reverse(n,k); 
     return p;
 }
