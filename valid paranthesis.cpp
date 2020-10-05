@@ -21,7 +21,7 @@
                 if(st.empty() || st.top()!='[')
                     return false;
                 st.pop();
-            }
+            } 
           }
          return st.empty();
     }
